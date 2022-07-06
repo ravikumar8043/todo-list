@@ -36,7 +36,13 @@ body {
 	/* background-image: url('image/background.jpg'); */
     background-color: aquamarine;
 }
-
+@media screen and (max-width:500px) {
+	section{
+	
+	width: 100%;
+	
+	}
+}
 section {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
